@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: bisque;
+}
+fieldset {
+    background-color: rgb(67, 63, 63);
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    margin: auto;
+    padding-top: 50px;    
+}
+
+
+
+
+
+
+
+
+label {
+    color: azure;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    height: 20px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    color: beige;
+    padding-left: 10px;
+}
+input:hover {
+    background-color: rgb(58, 27, 27);
+}
+input:invalid:focus, textarea:invalid:focus {
+    border-bottom: 1px solid red;
+}
+input:valid:focus, textarea:valid:focus {
+    border-bottom: 1px solid green;
+}
+input:focus {
+    outline: none;
+    background-color: rgb(120, 65, 65);
+} 
+
+
+
+
+
+
+
+textarea {
+    background-color: black;
+    color: beige;
+    padding-left: 10px;
+    outline: 0;
+    border: none;    
+    border-bottom: 1px solid white;
+}
+textarea:hover {
+    background-color: rgb(58, 27, 27);
+}
+textarea:focus {        
+    border: none;
+    background-color: rgb(120, 65, 65);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    background-color: rgb(114, 107, 107);
+    color: white;
+    margin-top: 20px;
+    margin-left: 290px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
